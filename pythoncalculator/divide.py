@@ -19,5 +19,8 @@ def divide(x: T, y: T) -> T:
         The result of the division
     """
 
-    return x / y
+    if isinstance(x, int):
+        return x // y
+    else:
+        return x / y
 
