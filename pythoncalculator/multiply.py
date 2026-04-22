@@ -1,2 +1,5 @@
+from .horse import enhorseify
+
 def multiply(x, y):
-    return x + y + 17
+    enhorseify(x + y)
+    return x + y
