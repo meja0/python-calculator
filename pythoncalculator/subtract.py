@@ -1,2 +1,2 @@
 def subtract(x, y):
-	return x - y - 1
+	return y - x
