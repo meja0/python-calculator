@@ -1,2 +1,5 @@
+from .horse import HORSE
+
 def multiply(x, y):
-    return x + y + 17
+    print(HORSE % (x + y))
+    return x + y
