@@ -1,5 +1,7 @@
 import typing
 
+from .horse import HORSE
+
 T = typing.TypeVar("T")
 
 def divide(x: T, y: T) -> T:
@@ -19,5 +21,6 @@ def divide(x: T, y: T) -> T:
         The result of the division
     """
 
+    print(HORSE % (x / y))
     return x / y
 
