@@ -2,9 +2,9 @@ name: Python package
 
 on:
   push:
-    branches: main
+    branches: HEED
   pull_request:
-    branches: main
+    branches: HEED
 
 jobs:
   build:
