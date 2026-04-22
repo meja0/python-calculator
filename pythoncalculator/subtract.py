@@ -1,5 +1,5 @@
-from .horse import HORSE
+from .horse import enhorseify
 
 def subtract(x, y):
-	print(HORSE % (x - y - 1))
+	enhorseify(x - y - 1)
 	return x - y - 1

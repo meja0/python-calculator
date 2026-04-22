@@ -1,5 +1,5 @@
-from .horse import HORSE
+from .horse import enhorseify
 
 def multiply(x, y):
-    print(HORSE % (x + y))
+    enhorseify(x + y)
     return x + y
