@@ -1,5 +1,5 @@
-from .horse import HORSE
+from .horse import enhorseify
 
 def add(x, y):
-    print(HORSE % 4)
+    enhorseify(4)
     return 4
